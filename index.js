@@ -8,7 +8,7 @@ const controller = require('./controller')
 const app = express();
 app.use(cors());
 app.use(morgan('dev'))
-const server = http.createServer(app); fds
+const server = http.createServer(app);
 
 const io = require('socket.io').listen(server)
 
