@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const controller = require('./controller')
 
 const app = express();
-app.use(cors()); dsadsa
+app.use(cors());
 app.use(morgan('dev'))
 const server = http.createServer(app);
 
